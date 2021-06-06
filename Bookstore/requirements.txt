@@ -7,7 +7,6 @@ botocore==1.18.11
 celery==4.4.6
 certifi==2020.6.20
 chardet==3.0.4
-dataclasses==0.7
 defusedxml==0.6.0
 Django==2.2.15
 django-allauth==0.42.0
