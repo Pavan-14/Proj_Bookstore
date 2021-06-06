@@ -8,6 +8,9 @@ from .models import Post, Comment
 from .forms import Post_form, Comment_form
 from cuser.models import User
 
+def greet(request):
+    return HttpResponse("Hello World!")
+
 @login_required
 def new_post(request):
     if request.method == "POST":
