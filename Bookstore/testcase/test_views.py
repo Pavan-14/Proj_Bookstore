@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-class ViewsTestCase(junit.TestCase):
+class ViewsTestCase(TestCase):
     @classmethod
     def test_index_loads_properly(self):
         """The index page loads properly"""
