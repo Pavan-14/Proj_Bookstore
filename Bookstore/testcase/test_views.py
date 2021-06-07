@@ -1,10 +1,9 @@
 # from django.contrib.auth.models import AnonymousUser, User
 # from cuser.views import user_signingit 
-import unittest
 from django.test import TestCase
 from django.test import Client
 
-class ViewsTestCase(unittest.TestCase):
+class ViewsTestCase(TestCase):
     def setUp(self):
         # Every test needs a client.
         self.client = Client()
