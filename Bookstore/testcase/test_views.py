@@ -19,9 +19,9 @@ class ViewsTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'cuser/signin.html')
 
-    def test_login(self):
-        request = self.factory.get('http://3.85.22.38:8080/cuser/signin/')
-        request.user = AnonymousUser()
-        response = user_signin(request)
+    #def test_login(self):
+        #request = self.factory.get('http://3.85.22.38:8080/cuser/signin/')
+        #request.user = AnonymousUser()
+        #response = user_signin(request)
 
-        self.assertNotEqual(response.status_code, 404, 'status code not 404')
+        #self.assertNotEqual(response.status_code, 404, 'status code not 404')
