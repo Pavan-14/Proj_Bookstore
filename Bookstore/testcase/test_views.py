@@ -1,4 +1,5 @@
 from django.contrib.auth.models import AnonymousUser, User
+from cuser.views import user_signin
 from django.test import TestCase, RequestFactory
 from django.test import Client
 
@@ -21,6 +22,6 @@ class ViewsTestCase(TestCase):
     def test_login(self):
         request = self.factory.get('http://3.85.22.38:8080/cuser/signin/')
         request.user = AnonymousUser()
-        response = my_view(request)
+        response = user_signin(request)
 
         self.assertNotEqual(response.status_code, 404, 'status code not 404')
