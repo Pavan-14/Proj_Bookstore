@@ -1,14 +1,12 @@
 # from django.contrib.auth.models import AnonymousUser, User
 # from cuser.views import user_signingit 
-from django.test import TestCase, RequestFactory
+from django.test import TestCase
 from django.test import Client
 
 class ViewsTestCase(TestCase):
     def setUp(self):
         # Every test needs a client.
         self.client = Client()
-        self.factory = RequestFactory()
-   
     def test_index_loads_properly(self):
         """The index page loads properly"""
         response = self.client.get('http://3.85.22.38:8080/books/')
