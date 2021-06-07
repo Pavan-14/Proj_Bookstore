@@ -28,7 +28,7 @@ SECRET_KEY = '4k=bt$!-jg$94toufi405h_ct48k=xeod@f(u4jpgb%u&cc9^1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['3.85.22.38',]
 
 AUTHENTICATION_BACKENDS = [
 
@@ -181,8 +181,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',
         'PORT': '3306',
-        'USER': 'vissu',
-        'PASSWORD': 'vissu',
+        'USER': 'root',
+        'PASSWORD': 'Demo_pw9',
         'NAME': 'bookstore',
         'OPTIONS': {
             # 'read_default_file': os.path.join(BASE_DIR, 'my.cnf'),
