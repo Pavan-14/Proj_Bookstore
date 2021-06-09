@@ -28,7 +28,7 @@ SECRET_KEY = '4k=bt$!-jg$94toufi405h_ct48k=xeod@f(u4jpgb%u&cc9^1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.142.185.85',]
+ALLOWED_HOSTS = ['3.135.230.73',]
 
 AUTHENTICATION_BACKENDS = [
 
@@ -182,7 +182,7 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
         'USER': 'root',
-        'PASSWORD': 'Demo_pw9',
+        'PASSWORD': 'Adapal@303',
         'NAME': 'bookstore',
         'OPTIONS': {
             # 'read_default_file': os.path.join(BASE_DIR, 'my.cnf'),
