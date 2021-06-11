@@ -28,7 +28,7 @@ SECRET_KEY = '4k=bt$!-jg$94toufi405h_ct48k=xeod@f(u4jpgb%u&cc9^1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.191.220.165',]
+ALLOWED_HOSTS = ['*',]
 
 AUTHENTICATION_BACKENDS = [
 
